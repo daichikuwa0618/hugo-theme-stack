@@ -52,11 +52,19 @@
         }
 
         .article-header {
+            // 記事内サムネイルのアスペクト比を一定に保つ
+            // NOTE: padding-top を変更することでアスペクト比を制御可能
+            // see: https://note.com/ikamasu/n/n06e3056498bb
             .article-image {
+                width: 100%;
+                padding-top: 42%;
+                position: relative;
+
                 img {
-                    height: auto;
+                    height: 100%;
                     width: 100%;
-                    max-height: 50vh;
+                    position: absolute;
+                    top: 0;
                     object-fit: cover;
                 }
             }
