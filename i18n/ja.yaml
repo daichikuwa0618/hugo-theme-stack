@@ -2,7 +2,7 @@ toggleMenu:
     other: メニューを開く・閉じる
 
 darkMode:
-    other: ダークモード
+    other: Dark mode
 
 article:
     relatedContents:
@@ -28,8 +28,8 @@ widget:
 
 search:
     title:
-        other: サーチ
+        other: 検索
     placeholder:
-        other: 入力...
+        other: テキストを入力
     resultTitle:
         other: "#PAGES_COUNT 件 （#TIME_SECONDS 秒）"
