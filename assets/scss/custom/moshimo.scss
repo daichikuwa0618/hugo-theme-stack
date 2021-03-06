@@ -1,0 +1,27 @@
+// もしもアフィリエイトのカードの style
+
+div > div > .easyLink-box {
+    width: 100%;
+    margin: 20px;
+    border: none;
+
+    .easyLink-info > .easyLink-info-btn {
+        // FIXME: もとの style を上手く上書きできなかったので、important によって優先順位をあげている
+
+        a {
+            background: none !important;
+        }
+
+        a.easyLink-info-btn-amazon {
+            background-color: #f79256 !important;
+        }
+
+        a.easyLink-info-btn-rakuten {
+            background-color: #f76956 !important;
+        }
+
+        a.easyLink-info-btn-yahoo {
+            background-color: #66a7ff !important;
+        }
+    }
+}

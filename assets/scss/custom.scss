@@ -1,69 +1,8 @@
 /* Place your custom SCSS in HUGO_SITE_FOLDER/assets/scss/custom.scss */
-.article-content {
-    h2 {
-        color: var(--accent-color);
-        font-size: 1.4em;
-        font-weight: bold;
-    }
 
-    h3 {
-        color: var(--accent-color);
-        font-size: 1.17em;
-        font-weight: bold;
-    }
-
-    h3, h4, h5, h6 {
-        border-left: 0;
-    }
-
-    ul {
-        padding-inline-start: 1.8em;
-
-        li::marker {
-            color: var(--accent-color-darker);
-            font-size: 1.2em;
-        }
-    }
-}
-
-// もしもアフィリエイトのカードの style
-
-div > div > .easyLink-box {
-    width: 100%;
-    margin: 20px;
-    border: none;
-
-    .easyLink-info > .easyLink-info-btn {
-        // FIXME: もとの style を上手く上書きできなかったので、important によって優先順位をあげている
-
-        a {
-            background: none !important;
-        }
-
-        a.easyLink-info-btn-amazon {
-            background-color: #f79256 !important;
-        }
-
-        a.easyLink-info-btn-rakuten {
-            background-color: #f76956 !important;
-        }
-
-        a.easyLink-info-btn-yahoo {
-            background-color: #66a7ff !important;
-        }
-    }
-}
-
-// Twitter 埋め込みカード
-
-.twitter-tweet {
-    padding: 20px;
-}
-
-// 数式がはみ出したときにスクロール可能にする
-
-.katex {
-    overflow-x: scroll;
-    // スクロールバーと数式がかぶるので padding を設ける
-    padding: 15px 0;
-}
+@import "custom/header";
+@import "custom/katex";
+@import "custom/list";
+@import "custom/moshimo";
+@import "custom/twitter";
+@import "custom/toc";

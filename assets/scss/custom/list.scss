@@ -1,0 +1,10 @@
+.article-content {
+    ul {
+        padding-inline-start: 1.8em;
+
+        li::marker {
+            color: var(--accent-color-darker);
+            font-size: 1.2em;
+        }
+    }
+}

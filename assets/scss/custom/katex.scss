@@ -1,0 +1,7 @@
+// 数式がはみ出したときにスクロール可能にする
+
+.katex {
+    overflow-x: scroll;
+    // スクロールバーと数式がかぶるので padding を設ける
+    padding: 15px 0;
+}
