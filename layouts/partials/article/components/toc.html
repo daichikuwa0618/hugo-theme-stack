@@ -1,7 +1,7 @@
 <!-- 400 文字以内であっても nav タグは生成されるので、33 文字以内制限をかける -->
 {{ if gt (len .TableOfContents) 33 }}
 <div class="toc">
-    <h2><i class="fas fa-th-list"> 目次</i></h2>
+    <h2><i class="fas fa-bookmark"></i> この記事の目次</h2>
     <div class="toc-content">
         {{.TableOfContents}}
     </div>
