@@ -1,0 +1,213 @@
+/*
+*   Style: xcodedark
+*/
+
+// Inspired by Apple's Xcode "Default (Dark)" Theme
+$background                         : #1F1F24;
+$plainText                          : #FFFFFF;
+$comments                           : #6C7986;
+$documentationMarkup                : #6C7986;
+$documentationMarkupKeywords        : #92A1B1;
+$marks                              : #92A1B1;
+$strings                            : #FC6A5D;
+$characters                         : #D0BF69;
+$numbers                            : #D0BF69;
+$keywords                           : #FC5FA3;
+$preprocessorStatements             : #FD8F3F;
+$urls                               : #5482FF;
+$attributes                         : #BF8555;
+$typeDeclarations                   : #5DD8FF;
+$otherDeclarations                  : #41A1C0;
+$projectClassNames                  : #9EF1DD;
+$projectFunctionAndMethodNames      : #67B7A4;
+$projectConstants                   : #67B7A4;
+$projectTypeNames                   : #9EF1DD;
+$projectInstanceVariablesAndGlobals : #67B7A4;
+$projectPreprocessorMacro           : #FD8F3F;
+$otherClassNames                    : #D0A8FF;
+$otherFunctionAndMethodNames        : #A167E6;
+$otherConstants                     : #A167E6;
+$otherTypeNames                     : #D0A8FF;
+$otherInstanceVariablesAndGlobals   : #A167E6;
+$otherPreprocessorMacros            : #FD8F3F;
+$heading                            : #AA0D91;
+
+/* Background */
+.chroma {
+    color: $plainText;
+    background-color: $background;
+}
+
+/* Other */
+// .chroma .x {}
+
+/* Error */
+.chroma .err {
+    color: #960050;
+    background-color: $background;
+}
+
+/* LineTableTD */
+.chroma .lntd {
+    vertical-align: top;
+    padding: 0;
+    margin: 0;
+    border: 0;
+}
+
+/* LineTable */
+.chroma .lntable {
+    border-spacing: 0;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    width: auto;
+    overflow: auto;
+    display: block;
+}
+
+/* LineHighlight */
+.chroma .hl {
+    display: block;
+    width: 100%;
+    background-color: #ffffcc
+}
+
+/* LineNumbersTable */
+.chroma .lnt {
+    margin-right: 0.4em;
+    padding: 0 0.4em 0 0.4em;
+    color: #7f7f7f
+}
+
+/* LineNumbers */
+.chroma .ln {
+    margin-right: 0.4em;
+    padding: 0 0.4em 0 0.4em;
+    color: #7f7f7f
+}
+
+/* Keyword */
+.chroma .k {
+    color: #FC5FA3
+}
+
+/* KeywordConstant */
+.chroma .kc {
+    color: #FC5FA3
+}
+
+/* KeywordDeclaration */
+.chroma .kd {
+    color: #FC5FA3
+}
+
+/* KeywordReserved */
+.chroma .kr {
+    color: #FC5FA3
+}
+
+/* Name */
+.chroma .n {
+    color: $plainText;
+}
+
+/* NameBuiltin */
+.chroma .nb {
+    color: $otherTypeNames;
+}
+
+/* NameBuiltinPseudo */
+.chroma .bp {
+    color: $otherFunctionAndMethodNames;
+}
+
+/* NameClass */
+.chroma .nc {
+    color: $typeDeclarations
+}
+
+/* NameFunction */
+.chroma .nf {
+    color: $otherDeclarations
+}
+
+/* NameFunctionMagic */
+// .chroma .fm {}
+
+/* NameLabel */
+// .chroma .nl {}
+
+/* NameNamespace */
+// .chroma .nn {}
+
+/* NameVariable */
+.chroma .nv {
+    color: $otherDeclarations
+}
+
+/* NameVariableClass */
+// .chroma .vc {}
+
+/* NameVariableGlobal */
+// .chroma .vg {}
+
+/* NameVariableInstance */
+// .chroma .vi {}
+
+/* NameVariableMagic */
+// .chroma .vm {}
+
+/* Literal */
+// .chroma .l {}
+
+/* LiteralString */
+.chroma .s {
+    color: $strings
+}
+
+/* LiteralStringInterpol */
+.chroma .si {
+    color: $plainText
+}
+
+/* LiteralNumber */
+.chroma .m {
+    color: $numbers
+}
+
+/* Operator */
+.chroma .o {
+    color: $plainText
+}
+
+/* Punctuation */
+.chroma .p {
+    color: $plainText;
+}
+
+/* Comment */
+.chroma .c {
+    color: $comments
+}
+
+/* CommentMultiline */
+.chroma .cm {
+    color: $comments
+}
+
+/* CommentSingle */
+.chroma .c1 {
+    color: $comments
+}
+
+/* CommentSpecial */
+.chroma .cs {
+    font-style: italic;
+    color: $comments;
+}
+
+/* CommentPreproc */
+.chroma .cp {
+    color: $preprocessorStatements
+}
