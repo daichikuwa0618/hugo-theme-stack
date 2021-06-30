@@ -4,5 +4,7 @@
         {{ range $widget := .Site.Params.widgets.enabled }}
             {{ partial (printf "widget/%s" $widget) $context }}
         {{ end }}
+
+        {{ partial "google-adsense/display-square" . }}
     </aside>
 {{ end }}
